@@ -18,7 +18,7 @@ The amount of data, complexity of data, and the speed at which it is changing.
 2. What is each tool's characteristics, what distinguishes them, and how they achieve their characteristics?
 
 ## An Example of Data System
-![Example Data System Picture](ExampleDataSystem.png)
+![Example Data System Picture](img/ExampleDataSystem.png)
 
 When you combine several tools in order to provide a service, the service’s interface or  application  programming  interface  (API)  usually  hides  those  implementation details  from  clients.  Now  you  have  essentially  created  a  new,  special-purpose  data system from smaller, general-purpose components. Your composite data system may provide  certain  guarantees:  e.g.,  that  the  cache  will  be  correctly  invalidated  or  updated  on  writes  so  that  outside  clients  see  consistent  results.  You  are  now  not  only  an
 application developer, but also a data system designer.

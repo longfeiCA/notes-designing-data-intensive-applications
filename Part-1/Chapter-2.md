@@ -171,6 +171,6 @@ To date, document databases have not followed the path of CODASYL.
 
 #### Solution 2: The Relational Model
 
-In a relationaln database, the query optimizer automatically decides which parts of the query to execute in which order,  and  which indexes to use.  If you want to query your data in new ways, you can just declare a new index, and queries will automatically use whichever indexes are most appropriate. You don't need to change your queries to take advantage of a new index. 
+In a relational database, the query optimizer automatically decides which parts of the query to execute in which order,  and  which indexes to use.  If you want to query your data in new ways, you can just declare a new index, and queries will automatically use whichever indexes are most appropriate. You don't need to change your queries to take advantage of a new index. 
 
 To be continued... Page 38
